@@ -11,3 +11,7 @@
 原文链接：https://blog.csdn.net/sxsxsxsxsxsxsx1/article/details/115367806
 
 ## 使用Everything找到包含githubdesktop 的所有文件。
+
+# desktop 无法登录，无法克隆库
+网络问题
+打开系统VPN
