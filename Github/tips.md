@@ -1,3 +1,4 @@
+![uTools_1619807530278](https://user-images.githubusercontent.com/53358372/116738835-8bbf1600-aa25-11eb-8e30-65dffd9a45b7.png)
 # 1
 如何笨办法在仓库新建文件夹，再在仓库新建文件夹内上传你文件夹里的源码文件。
 我们先点击【Add file】选择【Create new file】，然后在输入框里输入文件夹名字加“/”。
