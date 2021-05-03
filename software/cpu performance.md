@@ -1,0 +1,1 @@
+Windows 10's Task Manager shows detailed CPU information, too. Right-click your taskbar and select “Task Manager” or press Ctrl+Shift+Esc to launch it. Click the “Performance” tab and select “CPU.” The name and speed of your computer's CPU appear here.
