@@ -1,4 +1,4 @@
-# way to programmatically prevent Google Colab from disconnecting on a timeout
+# 1.way to programmatically prevent Google Colab from disconnecting on a timeout
 https://stackoverflow.com/questions/57113226/how-to-prevent-google-colab-from-disconnecting
 
 + ctrl+shift+i调出console
@@ -12,3 +12,5 @@ function ClickConnect(){
 };
 setInterval(ClickConnect, 60000)
 ```
+# 2.python安装cv2命令
+python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
