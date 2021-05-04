@@ -13,4 +13,6 @@ function ClickConnect(){
 setInterval(ClickConnect, 60000)
 ```
 # 2.python安装cv2命令
+```py
 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+```
