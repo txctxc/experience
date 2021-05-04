@@ -4,7 +4,7 @@ https://stackoverflow.com/questions/57113226/how-to-prevent-google-colab-from-di
 + ctrl+shift+i调出console
 
 + 粘贴以下代码，按下回车
-```py
+```
 function ClickConnect(){
   console.log("Connnect Clicked - Start"); 
   document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click();
@@ -13,6 +13,6 @@ function ClickConnect(){
 setInterval(ClickConnect, 60000)
 ```
 # 2.python安装cv2命令
-```py
+```
 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
 ```
