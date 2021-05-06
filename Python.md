@@ -16,3 +16,6 @@ setInterval(ClickConnect, 60000)
 ```
 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
 ```
+
+# 关于谷歌Colab使用心得的总结
+https://blog.csdn.net/xyl295528322/article/details/107736182
