@@ -19,3 +19,10 @@ Ctrl+Alt
 + 关机：在终端输入：shutdown -h now
 ## linux shutdown 命令关机重启：
 https://blog.csdn.net/q_l_s/article/details/44855817
+## how to see all files in Ubuntu
++ Method1: press ctrl+h in file browser
++ Method2: use
+```
+ls -a
+```
+in terminal.
