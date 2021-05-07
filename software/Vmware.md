@@ -26,3 +26,10 @@ https://blog.csdn.net/q_l_s/article/details/44855817
 ls -a
 ```
 in terminal.
+## how to copy a file's content to clipboard
+$ sudo apt-get update
+$ sudo apt-get install xclip
+# Downloads and installs xclip. If you don't have `apt-get`, you might need to use another installer (like `yum`)
+
+$ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+# Copies the contents of the id_ed25519.pub file to your clipboard
