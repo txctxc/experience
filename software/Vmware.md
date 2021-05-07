@@ -17,3 +17,5 @@ Ctrl+Alt
 + 调出terminal(终端) crtl+alt+t
 + 关闭当前窗口： Alt+F4
 + 关机：在终端输入：shutdown -h now
+## linux shutdown 命令关机重启：
+https://blog.csdn.net/q_l_s/article/details/44855817
