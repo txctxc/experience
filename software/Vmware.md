@@ -7,6 +7,8 @@
 
 # Ubuntu使用注意事项
 
+## 返回Windows快捷键：
+Ctrl+Alt
 ## 窗口适应问题：
 + Ubuntu报错：Could not apply the stored configuration for monitors  https://blog.csdn.net/qq_36743482/article/details/78862352
 + 在Ubuntu的设置里选择displays，将Resolution改为1364*709,再点Apply.
