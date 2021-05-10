@@ -38,11 +38,11 @@ $ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 ## 安装chrome
 https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/install-google-chrome-on-ubuntu-16-04.html
 
-## UBUNTU下创建目录没有权限如何解决
-没有权限的话最好是通过命令来解决，linux下有超级用户（root）和普通用户， 普通用户不能直接操作没有权限的目录。对于你的问题以下分两种解决办法介绍： 打开终端：alt+f2，输入gnome-terminal,回车，在弹出的界面操作： 1.输入sudo nautilus回车，输入你的用户的密码，这样就打开了一个超级用户权 限的资源管理器，然后你直接创建你的目录就行了。 __2.用命令创建你的目录，先cd到你要创建目录的地址，比如cd /opt，然后sudo mkdir 目录名,按提示输入用户密码即可。__
-
 ## Ubuntu 解压zip 文件到指定文件夹
 ```
 sudo apt-get install unzip
-sudo unzip file.zip -d destination_folder
+unzip file.zip -d destination_folder
 ```
+## qv2ray 下载安装遇到的坑
+不要使用sudo 创建文件夹，不要使用sudo 移动文件，不要使用sudo 解压文件。
++ https://qv2ray.net/lang/zh/getting-started/step2.html#%E4%B8%8B%E8%BD%BD-v2ray-%E6%A0%B8%E5%BF%83%E6%96%87%E4%BB%B6
