@@ -35,5 +35,7 @@ $ sudo apt-get install xclip
 $ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 # Copies the contents of the id_ed25519.pub file to your clipboard
 ```
+## 安装chrome
+https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/install-google-chrome-on-ubuntu-16-04.html
 
 
