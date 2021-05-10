@@ -41,4 +41,8 @@ https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/install-google-chrome-on-ub
 ## UBUNTU下创建目录没有权限如何解决
 没有权限的话最好是通过命令来解决，linux下有超级用户（root）和普通用户， 普通用户不能直接操作没有权限的目录。对于你的问题以下分两种解决办法介绍： 打开终端：alt+f2，输入gnome-terminal,回车，在弹出的界面操作： 1.输入sudo nautilus回车，输入你的用户的密码，这样就打开了一个超级用户权 限的资源管理器，然后你直接创建你的目录就行了。 __2.用命令创建你的目录，先cd到你要创建目录的地址，比如cd /opt，然后sudo mkdir 目录名,按提示输入用户密码即可。__
 
-
+## Ubuntu 解压zip 文件到指定文件夹
+```
+sudo apt-get install unzip
+sudo unzip file.zip -d destination_folder
+```
