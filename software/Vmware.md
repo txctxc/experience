@@ -54,3 +54,7 @@ sudo apt-get upgrade
 sudo apt-get remove vim-common
 sudo apt-get install vim
 ```
+## 重启虚拟机网络命令
+```
+service network-manager restart
+```
