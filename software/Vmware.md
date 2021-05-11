@@ -1,6 +1,6 @@
 # VMware虚拟机安装Ubuntu16-18系统超详细过程含下载地址(https://blog.csdn.net/davidhzq/article/details/102575343)
 注意事项：
-+ VMware安装VMware Workstation Player16
++ VMware安装VMware Workstation pro
 + 安装前关掉360安全卫士和360杀毒
 + 使用清华镜像https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/和迅雷下载
 + 不用管VMware运行卡慢愿因分析及解决办法大全这篇博客，只要关掉Windows系统的360安全卫士和360杀毒，计算机速度就很快了:joy:。
@@ -46,3 +46,11 @@ unzip file.zip -d destination_folder
 ## qv2ray 下载安装遇到的坑
 不要使用sudo 创建文件夹，不要使用sudo 移动文件，不要使用sudo 解压文件。
 + https://qv2ray.net/lang/zh/getting-started/step2.html#%E4%B8%8B%E8%BD%BD-v2ray-%E6%A0%B8%E5%BF%83%E6%96%87%E4%BB%B6
+
+## vim
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get remove vim-common
+sudo apt-get install vim
+```
