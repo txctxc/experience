@@ -58,3 +58,19 @@ sudo apt-get install vim
 ```
 service network-manager restart
 ```
+## Ubuntu终端的创建目录命令和创建文件命令不要混淆
++ 创建目录命令：
+```
+mkdir
+```
++ 创建文件命令：
+```
+vim 新建文件名
+```
+
+## 切换root 和普通用户(我密码都是1）
+```
+su root
+su 用户名
+```
+## 后面带~的是备份文件
