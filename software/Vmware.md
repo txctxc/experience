@@ -167,7 +167,59 @@ sudo git clone https://github.com/ycm-core/YouCompleteMe.git
 ```
 sudo apt-get install libffi-dev libssl-dev libreadline-dev zlibc zlib1g zlib1g-dev -y
 ```
-再按照https://www.codenong.com/cs107056617/ 设置系统默认python为python3.7。
+再按照https://www.codenong.com/cs107056617/ 设置系统默认python为python3.7。(尝试配置虚拟环境，参考文章https://blog.csdn.net/zhanghm1995/article/details/106467497 的方法2，pip版本问题以及sudo权限问题让我头大，结果没能成功 ，下面是命令行历史记录： 
+  312  sudo -H pip3 install virtualenv virtualenvwrapperCollecting virtualenv
+  313  pip install --upgrade virtualenv
+  314  pip3 install --upgrade virtualenv
+  315  sudo pip3 install virtualenv virtualenvwrapper
+  316  sudo -H pip3 install virtualenv
+  317  sudo -H pip3 install --upgrade virtualenv
+  318  pip install --upgrade pip3
+  319  pip3 install --upgrade pip3
+  320  pip3 install --upgrade pip
+  321  pip install --upgrade pip
+  322  sudo -H pip3 install --upgrade pip
+  323  sudo -H pip3 install virtualenvwrapper
+  324  pip --version
+  325  wget https://bootstrap.pypa.io/3.5/get-pip.py
+  326  python3 get-pip.py
+  327  wget https://bootstrap.pypa.io/pip/3.5/get-pip.py
+  328  python3 get-pip.py
+  329  python2 -V
+  330  python3 -V
+  331  which python
+  332  cd /usr/bin/python
+  333  ls
+  334  cd /usr/bin/python/
+  335  cd /Downloads
+  336  cd ./Downloads
+  337  ls
+  338  cd ./Python-3.7.9
+  339  ls
+  340  ./configure
+  341  make
+  342  sudo make install
+  343  python3.7
+  344  cd /etc
+  345  ls
+  346  vim profile
+  347  cd ~
+  348  mv /usr/bin/python /usr/bin/python.bak
+  349  sudo mv mv /usr/bin/python /usr/bin/python.bak
+  350  sudo mv /usr/bin/python /usr/bin/python.bak
+  351  ln -s /usr/local/bin/python3.7  /usr/bin/python
+  352  sudo ln -s /usr/local/bin/python3.7  /usr/bin/python
+  353  sudo mv /usr/bin/pip /usr/bin/pip.bak
+  354  sudo ln -s /usr/local/bin/pip3.7 /usr/bin/pip
+  355  python
+  356  sudo update-alternatives --config python
+  357  python3
+  358  cd ~/.vim/bundle/YouCompleteMe
+  359  python install.py --all
+  360  git submodule update --init --recursive
+  361  sudo git submodule update --init --recursive
+  362  vim ~/.vimrc
+）
 
 然后：
 ```
