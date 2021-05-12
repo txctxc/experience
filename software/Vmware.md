@@ -54,6 +54,7 @@ sudo apt-get upgrade
 sudo apt-get remove vim-common
 sudo apt-get install vim
 ```
+注意vim进入要先按i才进入编辑模式！
 ## 重启虚拟机网络命令
 ```
 service network-manager restart
@@ -77,3 +78,97 @@ su 用户名
 别用gedit 创建文件，会自动创建备份文件，占据空间。目前我还没弄懂删除备份文件的方法。
 
 推荐用vim创建文件
+## 安装vim 插件
+### 安装vim插件管理器：Vundle
+主要参考以下3.(官方文档):
+1. https://segmentfault.com/a/1190000019484603 (有许多错误内容）
+2. https://blog.csdn.net/zhangpower1993/article/details/52184581
+3. https://github.com/VundleVim/Vundle.vim
+
+其中1.安装git 和curl部分应改为：
+可以先
+```
+curl --version
+```
+然后按照提示安装
+```
+sudo apt install curl
+```
+然后
+```
+sudo git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+Then
+```
+vim ~/.vimrc
+```
+写入以下内容：
+```vim
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" The following are examples of different formats supported.
+" Keep Plugin commands between vundle#begin/end.
+" plugin on GitHub repo
+Plugin 'tpope/vim-fugitive'
+" plugin from http://vim-scripts.org/vim/scripts.html
+" Plugin 'L9'
+" Git plugin not hosted on GitHub
+Plugin 'git://git.wincent.com/command-t.git'
+" git repos on your local machine (i.e. when working on your own plugin)
+Plugin 'file:///home/gmarik/path/to/plugin'
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Install L9 and avoid a Naming conflict if you've already installed a
+" different version somewhere else.
+" Plugin 'ascenator/L9', {'name': 'newL9'}
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+```
+安装插件：
+```
+sudo vim +PluginInstall +qall
+```
+### 安装vim插件YouCompleteMe
+主要参考：
+https://zhuanlan.zhihu.com/p/98344227
+
+```
+sudo apt-get install gcc make python3-dev cmake g++
+cd ~/.vim/bundle
+sudo git clone https://github.com/ycm-core/YouCompleteMe.git
+```
+
++ 安装python3.7
+先安装依赖项：
+```
+sudo apt-get install libffi-dev libssl-dev libreadline-dev zlibc zlib1g zlib1g-dev -y
+```
+再按照https://www.codenong.com/cs107056617/ 设置。
+
+
+
+
