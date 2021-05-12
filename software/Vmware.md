@@ -167,8 +167,24 @@ sudo git clone https://github.com/ycm-core/YouCompleteMe.git
 ```
 sudo apt-get install libffi-dev libssl-dev libreadline-dev zlibc zlib1g zlib1g-dev -y
 ```
-再按照https://www.codenong.com/cs107056617/ 设置。
+再按照https://www.codenong.com/cs107056617/ 设置系统默认python为python3.7。
 
+然后：
+```
+cd ~/.vim/bundle/YouCompleteMe
+python install.py --all
+```
+配置~/.vimrc
 
+这个步骤官方上面没有说，但是需要做的，打开之前的~/.vimrc
+```
+vim ~/.vimrc
+```
+然后增加如下的语句。
+```
+Plugin 'VundleVim/YouCompleteMe'
+```
+注意要在两个call vundle之间，这两个call vundle之间是调用vundle的配置，所以肯定在这一部分加。
 
+6.按理说这个时候用python差不多就可以了，但是我（ta）写C++的时候发现提醒~/.vim下缺少ycm_extra_conf.py，在YouCompleteMe下找到了这个文件，copy了一份到那个提醒的路径下就没报错了，但是我还没有弄清楚这个怎么回事，有时间搞搞看看。
 
