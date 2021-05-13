@@ -239,4 +239,5 @@ Plugin 'VundleVim/YouCompleteMe'
 注意要在两个call vundle之间，这两个call vundle之间是调用vundle的配置，所以肯定在这一部分加。
 
 6.按理说这个时候用python差不多就可以了，但是我（ta）写C++的时候发现提醒~/.vim下缺少ycm_extra_conf.py，在YouCompleteMe下找到了这个文件，copy了一份到那个提醒的路径下就没报错了，但是我还没有弄清楚这个怎么回事，有时间搞搞看看。
-
+####安装完vim系统找不到vim的解决办法
+https://github.com/chxuan/vimplus/issues/130#issuecomment-766366105
