@@ -1,3 +1,7 @@
+[跟我学Ubuntu下将Vim 8.2打造成Python IDE](https://os.51cto.com/art/202011/632938.htm)\
+[超级强大的vim配置（vimplus）](https://cloud.tencent.com/developer/article/1058322)\
+[Linux 2020最强配置VIM,演示发行Ubuntu20.4](https://www.cnblogs.com/eternalnight/p/13900085.html)
+
 # VMware虚拟机安装Ubuntu16-18系统超详细过程含下载地址(https://blog.csdn.net/davidhzq/article/details/102575343)
 注意事项：
 + VMware安装VMware Workstation pro
