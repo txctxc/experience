@@ -2,6 +2,51 @@
 [超级强大的vim配置（vimplus）](https://cloud.tencent.com/developer/article/1058322)\
 [Linux 2020最强配置VIM,演示发行Ubuntu20.4](https://www.cnblogs.com/eternalnight/p/13900085.html)
 
+```
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  vi --version
+    4  vim --version
+    5  cd /etc
+    6  sudo mkdir sysconfig
+    7  cd sysconfig
+    8  sudo mkdir network-scripts
+    9  cd network-scripts
+   10  sudo vi ./ifcfg-eth0
+   11  sudo apt-get remove vim-common
+   12  sudo apt-get install vim
+   13  sudo vim ./ifcfg-eth0
+   14  service network-manager restart
+   15  cd ./network
+   16  cd ~
+   17  ls
+   18  mkdir network
+   19  cd ./network
+   20  vim interfaces
+   21  service network-manager restart
+   22  cd ~/Documents
+   23  gzip -d clash-linux-amd64-v1.6.0.gz
+   24  mv clash /usr/bin/
+   25  sudo mv clash /usr/bin/
+   26  sudo chmod +x /usr/bin/clash
+   27  cd ~/.config/clash
+   28  cd ~
+   29  mkdir ~/.config/clash
+   30  cd ~/.config/clash
+   31  cd /lib/systemd/system
+   32  sudo vim clash.service
+   33  cd ~/.config/clash/
+   34  cp config.yaml /etc/clash/
+   35  sudo cp config.yaml /etc/clash/
+   36  mkdir /etc/clash
+   37  sudo mkdir /etc/clash
+   38  sudo cp config.yaml /etc/clash/
+   39  cd ~/.config/clash/
+   40  sudo cp Country.mmdb /etc/clash/
+   41  service clash restart
+   42  history
+
+```
 # VMware虚拟机安装Ubuntu16-18系统超详细过程含下载地址(https://blog.csdn.net/davidhzq/article/details/102575343)
 注意事项：
 + VMware安装VMware Workstation pro
