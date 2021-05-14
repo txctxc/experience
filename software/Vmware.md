@@ -1,4 +1,37 @@
-[跟我学Ubuntu下将Vim 8.2打造成Python IDE](https://os.51cto.com/art/202011/632938.htm)\
+[跟我学Ubuntu下将Vim 8.2打造成Python IDE](https://os.51cto.com/art/202011/632938.htm) 有些错误，在操作:BundleInstall之前需要根据
+[VIM懒人配置](https://www.cnblogs.com/sword03/p/10053317.html)更改
+```python
+VIM懒人配置
+VIM配置起来，是很折腾人的。所以为了方便，直接使用前人的配置。重在用不在折腾。
+
+1 VIM安装
+一行命令。
+
+    # sudo apt-get install vim
+2 配置
+vim的个人配置文件是/.vimrc，个人配置目录是/.vim。
+
+(1) 安装前人配置。
+    # git clone git://github.com/humiaozuzu/dot-vimrc.git ~/.vim
+    # ln -s ~/.vim/vimrc ~/.vimrc
+(2) 安装配置管理工具
+    # git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+(3) 安装一个缺失的插件
+    # git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
+(4) 替换一个插件
+该插件的仓储位置有变化。在文件~/.vim/bundles.vim中将28行
+
+    Bundle 'edsono/vim-matchit'
+改为：
+
+    Bundle 'bumaociyuan/vim-matchit'
+3 下载安装插件
+打开任意文档，输入
+
+    :BundleInstall
+等待插件下载安装。
+```
+
 [超级强大的vim配置（vimplus）](https://cloud.tencent.com/developer/article/1058322)\
 [Linux 2020最强配置VIM,演示发行Ubuntu20.4](https://www.cnblogs.com/eternalnight/p/13900085.html)
 
