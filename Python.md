@@ -19,3 +19,11 @@ python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
 
 # 关于谷歌Colab使用心得的总结
 https://blog.csdn.net/xyl295528322/article/details/107736182
+
+```
+  147  sudo pip install numpy
+  149  sudo pip install scipy
+  151  sudo pip install matplotlib
+  152  sudo pip install pandas
+  162  sudo pip install scikit-learn -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+```
