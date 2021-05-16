@@ -77,6 +77,11 @@ sudo apt-get autoremove
 ```
 ubuntu装机一条龙https://blog.csdn.net/a805607966/article/details/105875971
 
+```
+sudo apt install rar
+sudo apt install unrar
+```
+
 安装Vivaldi浏览器https://www.triveditech.com/best-lightweight-and-fastest-browser/
 ```
      wget https://downloads.vivaldi.com/stable/vivaldi-stable_3.8.2259.42-1_amd64.deb
