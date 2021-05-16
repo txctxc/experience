@@ -77,7 +77,12 @@ sudo apt-get autoremove
 ```
 ubuntu装机一条龙https://blog.csdn.net/a805607966/article/details/105875971
 
-https://www.triveditech.com/best-lightweight-and-fastest-browser/
+安装Vivaldi浏览器https://www.triveditech.com/best-lightweight-and-fastest-browser/
+```
+     wget https://downloads.vivaldi.com/stable/vivaldi-stable_3.8.2259.42-1_amd64.deb
+     mv ~/vivaldi-stable_3.8.2259.42-1_amd64.deb ~/Downloads/
+     sudo dpkg -i vivaldi-stable_3.8.2259.42-1_amd64.deb
+```
 
 Ubuntu 16.04桌面版卸载不必要的自带软件https://www.jianshu.com/p/67a86505279f
 
