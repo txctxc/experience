@@ -77,6 +77,8 @@ sudo apt-get autoremove
 ```
 ubuntu装机一条龙https://blog.csdn.net/a805607966/article/details/105875971
 
+https://www.triveditech.com/best-lightweight-and-fastest-browser/
+
 Ubuntu 16.04桌面版卸载不必要的自带软件https://www.jianshu.com/p/67a86505279f
 
 
