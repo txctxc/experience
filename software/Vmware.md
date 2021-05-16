@@ -67,7 +67,14 @@ vim的个人配置文件是/.vimrc，个人配置目录是/.vim。
 ```
 + 设置里改时区
 + 按super键，输入language support，加入中文输入法。
-
++ ```sudo apt-get install fcitx-googlepinyin```
++ [ubuntu 20.04中文输入法安装](https://blog.csdn.net/a805607966/article/details/105874756)
+```
+# 完全卸载libreoffice套件
+sudo apt-get purge libreoffice*
+sudo apt-get clean
+sudo apt-get autoremove
+```
 
 
 # VMware虚拟机安装Ubuntu16-18系统超详细过程含下载地址(https://blog.csdn.net/davidhzq/article/details/102575343)
