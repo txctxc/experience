@@ -75,9 +75,9 @@ sudo apt-get purge libreoffice*
 sudo apt-get clean
 sudo apt-get autoremove
 ```
-```
-sudo snap install opera
-```
+ubuntu装机一条龙https://blog.csdn.net/a805607966/article/details/105875971
+
+Ubuntu 16.04桌面版卸载不必要的自带软件https://www.jianshu.com/p/67a86505279f
 
 
 # VMware虚拟机安装Ubuntu16-18系统超详细过程含下载地址(https://blog.csdn.net/davidhzq/article/details/102575343)
