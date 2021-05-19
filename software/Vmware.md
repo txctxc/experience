@@ -77,6 +77,7 @@ sudo apt-get autoremove
 ```
 ubuntu装机一条龙https://blog.csdn.net/a805607966/article/details/105875971
 
+更换apt国内源https://cloud.tencent.com/developer/article/1726035
 ```
 sudo apt install rar
 sudo apt install unrar
