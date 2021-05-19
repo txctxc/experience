@@ -81,8 +81,7 @@ ubuntu装机一条龙https://blog.csdn.net/a805607966/article/details/105875971
 
 应用商店下载Octave
 
-下载安装R和Rstudio   https://www.systutorials.com/how-to-install-r-and-rstudio-server-on-ubuntu-linux-20-04/#install-r-environment-in-ubuntu-linux
-
+下载安装R和Rstudio  https://www.systutorials.com/how-to-install-r-and-rstudio-desktop-on-ubuntu-linux-20-04/
 ```
 sudo apt install rar
 sudo apt install unrar
