@@ -78,6 +78,13 @@ sudo apt-get autoremove
 ubuntu装机一条龙https://blog.csdn.net/a805607966/article/details/105875971
 
 更换apt国内源https://cloud.tencent.com/developer/article/1726035
+
+应用商店下载Octave
+
+下载安装R和Rstudio
+```
+https://www.systutorials.com/how-to-install-r-and-rstudio-server-on-ubuntu-linux-20-04/#install-r-environment-in-ubuntu-linux
+```
 ```
 sudo apt install rar
 sudo apt install unrar
