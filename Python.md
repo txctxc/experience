@@ -28,3 +28,4 @@ https://blog.csdn.net/xyl295528322/article/details/107736182
   152  sudo pip install pandas
   162  sudo pip install scikit-learn -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 ```
+# 编写python代码时不要乱加Tab键
