@@ -1,3 +1,4 @@
+# Font: source code pro
 # 1.way to programmatically prevent Google Colab from disconnecting on a timeout
 https://stackoverflow.com/questions/57113226/how-to-prevent-google-colab-from-disconnecting
 
