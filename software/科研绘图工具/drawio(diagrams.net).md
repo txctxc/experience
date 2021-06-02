@@ -1,2 +1,3 @@
-#drawio 里写latex数学公式： https://www.diagrams.net/doc/faq/math-typesetting
+# drawio 里写latex数学公式：
+https://www.diagrams.net/doc/faq/math-typesetting
 
