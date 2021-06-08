@@ -2,4 +2,4 @@ https://www.aigei.com/bgremover/
 
 BgRemover - 在线图片去底工具 - 将纯色背景的图片转换为背景透明的图片
 
-![image](https://user-images.githubusercontent.com/53358372/121194032-efe4bd80-c8a0-11eb-9ea6-d8c1acb83e3e.png)
+![image](https://user-images.githubusercontent.com/53358372/121194278-2faba500-c8a1-11eb-8f69-b8883c6bbc45.png)
