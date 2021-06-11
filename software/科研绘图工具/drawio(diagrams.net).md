@@ -1,4 +1,4 @@
-解决draw.io 导出的svg矢量图文件粘贴到word里面出现不支持svg1.1的错误警告：
+解决draw.io 导出的svg矢量图文件粘贴到word里面出现不支持svg1.1的错误警告：（注：图中要是有Latex公式就没办法了，只能退而求其次，选择导出为清晰度不佳的png图像）
 
 在draw.io 里面CTRL+a全选，选择右侧text，勾选word wrap和formatted text，然后再取消勾选word wrap和formatted text，此时检查图中的文本，该换行的手动换行，并在导出svg文件时勾选Embed Images
 
