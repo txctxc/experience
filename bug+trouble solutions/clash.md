@@ -1,0 +1,2 @@
+Clash for Windows关闭后无法上网的解决办法
+在clash主页取消勾选allow LAN
