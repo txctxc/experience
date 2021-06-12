@@ -29,3 +29,4 @@ https://blog.csdn.net/xyl295528322/article/details/107736182
   162  sudo pip install scikit-learn -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 ```
 # 编写python代码时不要乱加Tab键
+# 在python里面写R语言切记不要忘记加%%R
