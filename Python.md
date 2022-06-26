@@ -35,7 +35,10 @@ https://blog.csdn.net/xyl295528322/article/details/107736182
 ```
 conda create -n XXX python=3.8
 ```
-再打开vscode工作空间，选择刚刚创建的python虚拟环境，刷新vscode里面的cmd,要在虚拟环境里安装python库cv2，就在这个cmd里面输入：
+再打开vscode工作空间，选择刚刚创建的python虚拟环境，快捷键
 ```
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+ctrl + `
+```刷新vscode里面的cmd,要在虚拟环境里安装python库，就在这个cmd里面输入：
+```
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python scikit-image matplotlib numpy pandas scipy
 ```
