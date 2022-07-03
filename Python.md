@@ -43,3 +43,7 @@ ctrl + `
 ```
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python scikit-image matplotlib numpy pandas scipy
 ```
+# 升级pip 和setuptools包
+```
+pip install --upgrade pip setuptools
+```
