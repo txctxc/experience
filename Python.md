@@ -41,9 +41,10 @@ ctrl + `
 ```
 刷新vscode里面的cmd,要在虚拟环境里安装python库，就在这个cmd里面输入：
 ```
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python scikit-image matplotlib numpy pandas scipy
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python scikit-image matplotlib numpy pandas scipy imagecodecs
 ```
 # 升级pip 和setuptools包
 ```
 pip install --upgrade pip setuptools
 ```
+# 使用skimage时，import imagecodecs
